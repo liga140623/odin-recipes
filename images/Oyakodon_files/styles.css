@@ -1,0 +1,87 @@
+
+body {
+    color: #18140E;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.odin{
+    height: 90px;
+    width: auto;
+}
+.gods{
+    height: 400px;
+    width: auto;
+}
+
+.gods:hover {
+    transform: scale(1.1);
+}   
+h1 {
+    font-size: 50px;
+    font-family: Norse;
+    margin: 10px;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.recipes{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(200, 99, 16);
+    padding: 30px 100px;
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: royalblue;
+}
+
+.first{
+    border-color: whitesmoke;
+    border: 30px; 
+}
+.top {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients{
+    display: flex;
+    justify-content: space-around;
+    border-color: rgb(200, 99, 16);
+    border-width: 10px;
+    background-color: whitesmoke;
+    height: 180px;
+    align-items: flex-start;
+    line-height: 1.5em;
+    margin: 30px;
+}
+
+
+.preparation{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: whitesmoke;
+    line-height: 1.5em
+    margin: 30px;
+}
